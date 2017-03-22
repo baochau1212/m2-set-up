@@ -1,43 +1,23 @@
-# Module 1: Setting up your Machine
+# Setting up your Machine
 
-## Overview
 In this course, we'll be using a variety of different software programs to write, manage, and execute the code that we write. Unfortunately, one of the most frustrating and confusing barriers to start working with code is simply getting your machine properly set-up. This repository aims to provide sufficient information for setting up your machine, and troubleshooting the process. Do your best to follow instructions and search for help online, but don't waste too much time before contacting your TA. We'll also set aside time in the first lab session to help with machine set-up.
 
 Note, classroom machines for this course should have all appropriate software already installed and ready to use.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+Helpful links:
 
-**Contents**
-
-- [Resources](#resources)
-- [Summary](#summary)
-- [RStudio](#r-studio)
-- [Git](#git)
-- [Command-line Tools (Windows)](#command-line-tools-windows)
-  - [Git Bash](#git-bash)
-  - [Windows Bash](#windows-bash)
-  - [Powershell (Windows Management Framework)](#powershell-windows-management-framework)
-- [Text Editors](#text-editors)
-  - [SublimeText](#sublimetext)
-  - [Atom](#atom)
-  - [Macdown](#macdown)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-- [RStudio](https://www.rstudio.com/products/rstudio/download3/)
-- [SublimeText2](http://www.sublimetext.com/2)
-- [SublimeText3](http://www.sublimetext.com/3)
-- [Atom](https://atom.io/)
-- [Macdown](http://macdown.uranusjr.com/)
-- [Installing Bash on Windows](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+- [RStudio Download](https://www.rstudio.com/products/rstudio/download/)
+- [R Windows Download](https://cran.r-project.org/bin/windows/base/)
+- [R Mac Download](https://cran.r-project.org/bin/macosx/)
+- [Atom Download](https://atom.io/)
+- [Git Download](https://git-scm.com/downloads)
 
 ## Summary
 In short, you'll need to install the following programs: see below for more information / options.
+- **R**: A _statistical computing_ language that we'll be using throughout the course to _write code to work with data_ ([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/))
 - **RStudio**: An interface for writing and running R code, which is our primary language for the quarter ([link](https://www.rstudio.com/products/rstudio/download3/))
 - **Git**: A set of command-line tools for tracking changes to a project. This is likely already installed on Macs. The Windows download will come with Git Bash, a simple interface for executing Git commands ([link](https://git-scm.com/downloads)).
-- **SublimeText**: A text-editor in which to write longer programming scripts ([link]((http://www.sublimetext.com/2))).
+- **Text editor**: A text-editor of your choice for writing code -- I prefer atom.io (and will use it in class), but feel free to use your preferred editor ([link](https://atom.io/)).
 
 The following sections have additional information about the purpose of each component, how to install it, and alternative configurations.
 
@@ -46,7 +26,7 @@ The primary programming language we will use throughout the course is R. It's a 
 
 To download the RStudio program, select the installer for your operating system at this [link](https://www.rstudio.com/products/rstudio/download3/). Make sure to scroll down to download a **free** version of RStudio:
 
-![r-studio installer screenshot](imgs/r-studio-install.png)
+![r-studio installer screenshot](m2-imgs/r-studio-install.png)
 
 Once the download completes, double-click on the `.exe` file to run the installer. Simply follow the steps of the installer, and you should be prepared to use RStudio. By downloading RStudio, you will also install the R programming language, if it is not already present in your operating system.
 
@@ -70,17 +50,12 @@ In order to write code, you need somewhere to write it (obviously). There are a 
 
 RStudio has a great built in text editor, but you'll (at times) want to use another text editor which is more robust, or designed for a different programming language. You really only need to download one of the following programs, but feel free to download multiple text-editors to compare and contrast how you like them.
 
-### SublimeText
-SublimeText is a very popular text editor with excellent defaults and a variety of available extensions. One drawback is that, to use it without paying, you are using an unlimited free trial. Every ~10 times you save a file, it will ask you if you want to purchase the full version, which is a bit distracting. [SublimeText2](http://www.sublimetext.com/2) is the current stable version of the software, though feel free to install [SublimeText3](http://www.sublimetext.com/3) if you don't mind using software that's in beta.
-
 ### Atom
 Atom is a text editor built by the folks at GitHub, and has been gaining in popularity. As an open source project, people are continually building (and making available) interesting/useful extensions. It's built-in spell-check is a great feature, especially for documents that require lots of written text. See more and download [here](https://atom.io/).
 
-### Macdown
-Macdown is a program (for Macs only, unfortunately) that is designed for writing Markdown documents. It's biggest advantage is that it provides a live view of how your Markdown document will be rendered:
+### SublimeText
+SublimeText is a very popular text editor with excellent defaults and a variety of available extensions. One drawback is that, to use it without paying, you are using an unlimited free trial. Every ~10 times you save a file, it will ask you if you want to purchase the full version, which is a bit distracting. [SublimeText2](http://www.sublimetext.com/2) is the current stable version of the software, though feel free to install [SublimeText3](http://www.sublimetext.com/3) if you don't mind using software that's in beta.
 
-![macdown-preview-screenshot](imgs/macdown-ss.png)
 
-Download [here](http://macdown.uranusjr.com/).
-
-If you run into any installation/configuration challenges, please let others know on the [slack channel](https://info201-a16.slack.com) so that others can anticipate the same issues.
+### Visual Studio Code
+Microsoft's free and open source text editor Visual Studio Code has a suite of built-in functionalities, and some really nice keyboard shortcuts for web-development. Download [here](https://code.visualstudio.com/).
