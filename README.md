@@ -14,6 +14,7 @@ Helpful links:
 
 ## Summary
 In short, you'll need to install the following programs: see below for more information / options.
+
 - **R**: A _statistical computing_ language that we'll be using throughout the course to _write code to work with data_ ([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/))
 - **RStudio**: An interface for writing and running R code, which is our primary language for the quarter ([link](https://www.rstudio.com/products/rstudio/download3/))
 - **Git**: A set of command-line tools for tracking changes to a project. This is likely already installed on Macs. The Windows download will come with Git Bash, a simple interface for executing Git commands ([link](https://git-scm.com/downloads)).
@@ -21,8 +22,12 @@ In short, you'll need to install the following programs: see below for more info
 
 The following sections have additional information about the purpose of each component, how to install it, and alternative configurations.
 
+## R
+R is a _statistical programming_ language optimized for working with data. It provides a variety of built-in functionalities for analyzing data (statistics, machine learning), building graphics (static and interactive), and sharing results (via pdf or online). In order to run R on your computer, you'll need to install the R programming language. This is most easily done by following the link to the download page for you operating system([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/)). Once you've downloaded and installed the programming language, you will be able to computer will be able to execute R code (and you'll be able to instruct your computer to run R code in a variety of ways). 
+
+
 ## RStudio
-The primary programming language we will use throughout the course is R. It's a very powerful statistical programming language that is built to work well with large and diverse datasets. While you are able to execute R scripts without an interface, the RStudio interface provides a wonderful way to engage with the R language.
+As noted above, the primary programming language we will use throughout the course is R. It's a very powerful statistical programming language that is built to work well with large and diverse datasets. While you are able to execute R scripts without an interface, the RStudio interface provides a wonderful way to engage with the R language.
 
 To download the RStudio program, select the installer for your operating system at this [link](https://www.rstudio.com/products/rstudio/download3/). Make sure to scroll down to download a **free** version of RStudio:
 
