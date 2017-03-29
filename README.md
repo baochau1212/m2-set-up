@@ -23,7 +23,7 @@ In short, you'll need to install the following programs: see below for more info
 The following sections have additional information about the purpose of each component, how to install it, and alternative configurations.
 
 ## R
-R is a _statistical programming_ language optimized for working with data. It provides a variety of built-in functionalities for analyzing data (statistics, machine learning), building graphics (static and interactive), and sharing results (via pdf or online). In order to run R on your computer, you'll need to install the R programming language. This is most easily done by following the link to the download page for you operating system([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/)). Once you've downloaded and installed the programming language, you will be able to computer will be able to execute R code (and you'll be able to instruct your computer to run R code in a variety of ways). 
+R is a _statistical programming_ language optimized for working with data. It provides a variety of built-in functionalities for analyzing data (statistics, machine learning), building graphics (static and interactive), and sharing results (via pdf or online). In order to run R on your computer, you'll need to install the R programming language. This is most easily done by following the link to the download page for you operating system([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/)). Once you've downloaded and installed the programming language, your computer will be able to execute R code (and you'll be able to instruct your computer to run R code in a variety of ways). 
 
 
 ## RStudio
